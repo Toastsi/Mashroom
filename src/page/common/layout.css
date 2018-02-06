@@ -1,0 +1,111 @@
+/*
+* @Author: Lear
+* @Date:   2017-09-14 04:25:05
+* @Last Modified by:   Lear
+* @Last Modified time: 2017-09-18 15:24:58
+*/
+/* css reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f6f6f6;
+	font: 12px/1.5 Microsoft YaHei, tahoma, arial, sans-serif;
+
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+	border: none;
+}
+label{
+	cursor: pointer;
+}
+input[type='checkbox']{
+	cursor: pointer;
+}
+
+/* 定宽布局 */
+.w{
+	width: 1600px;
+	margin: 0 auto;
+	position: relative;
+	/* overflow:hidden属性能清除浮动,如果有两个relative容器,外层容器如果本身没有高度的话会被里面的容器撑起来 */
+	overflow: hidden;
+}
+/* panel */
+.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.panel .panel-title{
+	padding: 10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #eee; 
+}
+
+.panel .panel-body{
+	padding: 10px;
+	overflow: hidden;
+}
+
+/* 全局通用样式 */
+/* 隐藏类 */
+.hide{
+	display: none;
+}
+
+/* 超链样式*/
+.link{
+	color: #999;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link:hover{
+	color: #B9C516;
+}
+.link-text{
+	color: #999;
+	text-decoration: none;
+}
+
+/* btn */
+.btn{
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	border: none;
+	background: #B9C516;
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn-mini{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	padding: 0 10px;
+}
+
+/* loading */
+.loading{
+	margin: 10px auto;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background: url(../../image/icon/loading.gif) no-repeat;
+	opacity: .6;
+}

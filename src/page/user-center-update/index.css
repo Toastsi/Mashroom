@@ -1,0 +1,23 @@
+/*
+* @Author: Lear
+* @Date:   2017-09-15 11:23:17
+* @Last Modified by:   Lear
+* @Last Modified time: 2017-09-15 12:33:54
+*/
+.form-line{
+	margin-bottom: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.form-line .label{
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+}
+.form-line .input{
+	height: 25px;
+	line-height: 25px;
+	width: 200px;
+	font-size: 14px;
+}
