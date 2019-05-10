@@ -1,6 +1,6 @@
 # 米米优客电商购物平台
 
-纯手工搭建的webpack~
+webpack配置
 ## Build Setup
 
 ``` bash
